@@ -7,4 +7,4 @@ def save_data(data):
     with open(filename, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(data)
+        writer.writerows(data) 
