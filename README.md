@@ -24,17 +24,11 @@ pip install -r requirements.txt
 
 - Open `main.py` and update the `url` variable with the URL of the web page you want to scrape.
 
-- Run the main script:
-```
-python main.py
-```
-- The script will fetch the web page content, scrape the data, and store it a CSV file named `output.csv` in the `data/` directory.
+- Run the main script: `python main.py` The script will fetch the web page content, scrape the data, and store it a CSV file named `output.csv` in the `data/` directory.
 
-- Customize the scraping logic:
-- Modify the `scraper.py` file to implement specific scraping logic. You can use the Beautiful Soup library to navigate the HTML structure and extract the desired data.
+- Customize the scraping logic: Modify the `scraper.py` file to implement specific scraping logic. You can use the Beautiful Soup library to navigate the HTML structure and extract the desired data.
 
-- Customize the data storage:
-- Modify the `output.py` file to store the data in a different format or to a different location.
+- Customize the data storage: Modify the `output.py` file to store the data in a different format or to a different location.
 
 
 
