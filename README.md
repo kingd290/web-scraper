@@ -22,18 +22,18 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Open `main.py` and update the `url` variable with the URL of the web page you want to scrape.
+- Open `main.py` and update the `url` variable with the URL of the web page you want to scrape.
 
-2. Run the main script:
+- Run the main script:
 ```
 python main.py
 ```
-The script will fetch the web page content, scrape the data, and store it a CSV file named `output.csv` in the `data/` directory.
+- The script will fetch the web page content, scrape the data, and store it a CSV file named `output.csv` in the `data/` directory.
 
-3. Customize the scraping logic:
+- Customize the scraping logic:
 - Modify the `scraper.py` file to implement specific scraping logic. You can use the Beautiful Soup library to navigate the HTML structure and extract the desired data.
 
-4. Customize the data storage:
+- Customize the data storage:
 - Modify the `output.py` file to store the data in a different format or to a different location.
 
 
@@ -47,8 +47,8 @@ The project follows the following file structure:
 - `main.py`: The entry point of the application.
 
 ## Features
-1. Data logging and Error handling: this will help to identify and address issues that may arise during the scraping process
-2. CLI Argument for URL: This feature allows users to specify the URL they want to scrape through a command-line argument. Users can provide the URL as a command-line argument when running the script. e.g: `python script.py --url https://uniswap.org`.
+- Data logging and Error handling: this will help to identify and address issues that may arise during the scraping process
+- CLI Argument for URL: This feature allows users to specify the URL they want to scrape through a command-line argument. Users can provide the URL as a command-line argument when running the script. e.g: `python script.py --url https://uniswap.org`.
 
 ## Dependencies
 
